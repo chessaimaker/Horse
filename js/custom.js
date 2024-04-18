@@ -69,7 +69,7 @@ function getQueryParam(param) {
     return urlParams.get(param);
 }
 $(document).ready(function(){
-        var elems = document.querySeectorAll("*");
+        var elems = document.querySelectorAll("*");
 for(var i = 0; i < elems.length; i++){
         elems[i].style.cursor = "progress";
 }
